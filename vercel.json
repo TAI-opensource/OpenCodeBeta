@@ -1,6 +1,6 @@
 {
   "installCommand": "bun install",
-  "buildCommand": "cd packages/app && npx vite build",
+  "buildCommand": "bun run --cwd packages/app vite build",
   "outputDirectory": "packages/app/dist",
   "framework": null,
   "rewrites": [

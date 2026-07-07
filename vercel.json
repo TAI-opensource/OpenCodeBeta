@@ -1,5 +1,6 @@
 {
-  "buildCommand": "bash build.sh",
+  "installCommand": "bun install",
+  "buildCommand": "cd packages/app && npx vite build",
   "outputDirectory": "packages/app/dist",
   "framework": null,
   "rewrites": [

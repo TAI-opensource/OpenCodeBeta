@@ -1,0 +1,18 @@
+{
+  "buildCommand": "bun run build",
+  "outputDirectory": "packages/app/dist",
+  "installCommand": "bun install",
+  "framework": null,
+  "rewrites": [
+    { "source": "/assets/(.*)", "destination": "/assets/$1" },
+    { "source": "/(.*)", "destination": "/index.html" }
+  ],
+  "headers": [
+    {
+      "source": "/assets/(.*)",
+      "headers": [
+        { "key": "Cache-Control", "value": "public, max-age=31536000, immutable" }
+      ]
+    }
+  ]
+}

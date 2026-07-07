@@ -1,0 +1,12 @@
+{
+  "$schema": "https://json.schemastore.org/package.json",
+  "version": "1.17.14",
+  "name": "@opencode-ai/core",
+  "type": "module",
+  "license": "MIT",
+  "private": true,
+  "scripts": {},
+  "exports": {
+    "./*": "./src/*.ts"
+  }
+}

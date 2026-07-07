@@ -1,7 +1,6 @@
 {
-  "buildCommand": "bun run build",
+  "buildCommand": "bash build.sh",
   "outputDirectory": "packages/app/dist",
-  "installCommand": "bun install",
   "framework": null,
   "rewrites": [
     { "source": "/assets/(.*)", "destination": "/assets/$1" },
